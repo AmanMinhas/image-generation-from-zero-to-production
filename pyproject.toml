@@ -1,0 +1,16 @@
+[project]
+name = "guide"
+version = "0.1.0"
+description = "Notebook examples for AI agent workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai",
+    "ipykernel",
+    "jupyter>=1.1.1",
+    "langchain-core",
+    "langchain-groq",
+    "langgraph",
+    "nbconvert>=7.17.1",
+    "pydantic",
+]
