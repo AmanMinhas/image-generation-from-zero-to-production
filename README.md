@@ -18,6 +18,7 @@ The examples use Gemini for image generation and visual evaluation. They cover r
 | Notebook | What it covers |
 | --- | --- |
 | [`image_generation.ipynb`](notebooks/image_generation.ipynb) | The starting point: download two reference images, send them to Gemini with a prompt, display the generated image, and compare item-count evaluations from vision models. |
+| [`sunset_gemini_openai.ipynb`](notebooks/sunset_gemini_openai.ipynb) | Request a sunset from Gemini through the OpenAI Python SDK Chat Completions API, save the image, and display it inline. |
 | [`basic_generator_evaluator_langgraph.ipynb`](notebooks/basic_generator_evaluator_langgraph.ipynb) | A model-free introduction to the generator–evaluator pattern using random numbers, conditional routing, and bounded retries. |
 | [`image_generator_evaluator_langgraph.ipynb`](notebooks/image_generator_evaluator_langgraph.ipynb) | The complete workflow: generate an image, evaluate a visual constraint with structured output, retry when it does not match, and retain the history of every attempt. |
 

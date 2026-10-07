@@ -12,5 +12,6 @@ dependencies = [
     "langchain-groq",
     "langgraph",
     "nbconvert>=7.17.1",
+    "openai>=3.17.0",
     "pydantic",
 ]
